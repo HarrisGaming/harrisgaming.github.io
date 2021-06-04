@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-image: url(images/headerbg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.navbar .ytlogo{
+    width: 60px;
+}
+
+.navbar .nav-logo{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.navbar .logo-txt{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.navbar .logo-txt:hover{
+    text-shadow: 2px 2px pink;
+}
+
+.navbar .nav-ul{
+    display: flex;
+}
+
+.navbar .nav-ul li{
+    list-style-type: none;
+    margin: 15px 15px;
+}
+
+.navbar .nav-ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.navbar .nav-ul li a:hover{
+    color: pink;
+    transition: 0.4s;
+}
+
+.marker{
+    position: absolute;
+    left: 0;
+    height: 5px;
+    width: 0;
+    background: white;
+    bottom: 10px;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+
+/* --------------HeaderHome------------------ */
+
+header .home-page{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+header .home-page .heading-1{
+    /* color: rgb(0, 51, 192); */
+    color: white;
+    text-shadow: 2px 2px gray;
+    font-size: 40px;
+    font-family: 'Poppins', serif;
+}
+
+header .home-page .heading-2{
+    /* color: rgb(255, 255, 67); */
+    color: white;
+    text-shadow: 2px 2px gray;
+    font-size: 55px;
+    font-family: 'Poppins', serif;
+}
+
+header .home-page .home-headings{
+    margin: 20px;
+    padding: 15px;
+}
+
+/* -------------------------------------------------- */
+
+.about{
+    text-align: center;
+    height: 60vh;
+}
+
+.about h1{
+    padding: 15px;
+    cursor: pointer;
+    clear: both;
+    max-height: 10px;
+    margin-bottom: 40px;
+}
+
+.about h1:hover{
+    text-shadow: 2px 2px 0px gray;
+}
+.about .about-container{
+    display: flex;
+    align-items: center;
+}
+
+.about .about-container img{
+    float: left;
+    width: 500px;
+    margin: 20px;
+    border: 10px solid pink;
+    border-radius: 4px;
+}
+
+.about .about-container span{
+    font-size: 20px;
+
+}
+
+/* -------------------------------------socials--------------------------------------- */
+
+.social{
+    margin-top: 40px;
+    text-align: center;
+    height: 60vh;
+    justify-content: center;
+}
+
+.social h1{
+    padding: 15px;
+    cursor: pointer;
+    clear: both;
+    max-height: 10px;
+    margin-bottom: 40px;
+}
+
+.social h1:hover{
+    text-shadow: 2px 2px 0px gray;
+}
+
+.social .social-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social .social-container .discord{
+    width: 110px;
+    filter: grayscale(100%);
+    margin: 25px;
+}
+
+.social .social-container .youtube{
+    width: 100px;
+    filter: grayscale(100%);
+    margin: 25px;
+}
+
+.social .social-container .discord:hover{
+    cursor: pointer;
+    filter: none;
+}
+.social .social-container .youtube:hover{
+    cursor: pointer;
+    filter: none;
+}

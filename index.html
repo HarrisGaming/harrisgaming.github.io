@@ -1,0 +1,79 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap "></script>
+    <title>Harris Gaming</title>
+    <link rel="image_src" href="images/thumb.png" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo-txt">Harris</a>
+            <div class="nav-logo">
+                <img src="images/ytlogo.png" alt="" class="ytlogo">
+            </div>
+                
+            <ul class="nav-ul">
+                <div class="marker" id="marker"></div>
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Social</a></li>
+            </ul>
+        </nav>
+        <div class="home-page">
+            <div class="home-headings">
+                <h1 class="heading-1">Welcome to</h1>
+                <h1 class="heading-2">Harris Gaming</h1>
+            </div>
+        </div>
+    </header>
+
+    <!---------RAW DATA------->>
+    
+    <section class="about">
+        <h1>About</h1>      
+        <div class="about-container">
+            <img src="images/Banner_Arts_final.png" alt=""width="100px">
+            <span>Hey! I'm Harris I love to make animations, I'm inspired mostly by WASIF, AXZYTE & Leo-Kun. The main reason I make video is for entertainment nothing else. I'm late sometimes in uploading videos because I'm working on improvid my editing skils everytime my videos are improved and that's why I take time, Now I don't want the about text to turn in a motivation lecture so bye!     </span>
+        </div>
+    </section>
+
+
+    <section class="social">
+        <h1>Social</h1>
+        <div class="social-container">
+            <a href="https://www.youtube.com/channel/UCgzjXfVEEscPSNaa6WDMLnw"  target="_blank"><img src="images/ytlogo.png" alt="" class="youtube"></a>
+            <a href="https://www.twitch.tv/harris4ever"  target="_blank"><img src="images/twitch.png" alt=""width="90px" height="90px" class="twitch"></a>
+        </div>
+    </section>
+    <script>
+        var marker = document.querySelector('#marker');
+        var item = document.querySelectorAll('nav a');
+
+        function indicator (e){
+            marker.style.left = e.offsetLeft+"px";
+            marker.style.width= e.offsetWidth+"px";
+        }
+        
+        item.forEach(link=>{
+            link.addEventListener(
+                'click', (e)=>{
+                    indicator(e.target);
+                }
+            )
+        }
+        )
+    </script>
+</body>
+
+</html>
