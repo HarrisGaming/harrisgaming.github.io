@@ -32,7 +32,7 @@ header{
 
 .navbar .logo-txt{
     text-transform: uppercase;
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 700;
     font-size: 35px;
@@ -41,7 +41,7 @@ header{
 }
 
 .navbar .logo-txt:hover{
-    text-shadow: 2px 2px pink;
+    text-shadow: 2px 2px white;
 }
 
 .navbar .nav-ul{
@@ -54,13 +54,13 @@ header{
 }
 
 .navbar .nav-ul li a{
-    color: white;
+    color: black;
     text-decoration: none;
     position: relative;
 }
 
 .navbar .nav-ul li a:hover{
-    color: pink;
+    color: black;
     transition: 0.4s;
 }
 
