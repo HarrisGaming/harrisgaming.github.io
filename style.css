@@ -32,7 +32,7 @@ header{
 
 .navbar .logo-txt{
     text-transform: uppercase;
-    color: black;
+    color: blurple;
     text-decoration: none;
     font-weight: 700;
     font-size: 35px;
@@ -54,13 +54,13 @@ header{
 }
 
 .navbar .nav-ul li a{
-    color: black;
+    color: blurple;
     text-decoration: none;
     position: relative;
 }
 
 .navbar .nav-ul li a:hover{
-    color: black;
+    color: blurple;
     transition: 0.4s;
 }
 
@@ -69,7 +69,7 @@ header{
     left: 0;
     height: 5px;
     width: 0;
-    background: white;
+    background: grey;
     bottom: 10px;
     transition: 0.5s;
     border-radius: 4px;
@@ -85,7 +85,7 @@ header .home-page{
 
 header .home-page .heading-1{
     /* color: rgb(0, 51, 192); */
-    color: white;
+    color: blurple;
     text-shadow: 2px 2px gray;
     font-size: 40px;
     font-family: 'Poppins', serif;
@@ -93,7 +93,7 @@ header .home-page .heading-1{
 
 header .home-page .heading-2{
     /* color: rgb(255, 255, 67); */
-    color: white;
+    color: blurple;
     text-shadow: 2px 2px gray;
     font-size: 55px;
     font-family: 'Poppins', serif;
